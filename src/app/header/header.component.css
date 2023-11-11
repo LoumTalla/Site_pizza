@@ -1,0 +1,16 @@
+nav {
+  background: black;
+  color: black;
+  .logo {
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+
+ul {
+  li {
+    padding: 10px 20px;
+    display: inline-block;
+    border-radius: 3px;
+  }
+}

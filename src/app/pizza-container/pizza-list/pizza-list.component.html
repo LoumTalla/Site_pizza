@@ -1,0 +1,13 @@
+<h3 class="mb-20">pizza</h3>
+
+<ul class="mb-20 list-primary">
+  <li
+    [appSelected]="pizza.name === PizzaSelected.name"
+    (click)="recupPizza(index)"
+    *ngFor="let pizza of pizzas; let index = index"
+  >
+    <a>{{ pizza.name }}</a>
+  </li>
+</ul>
+
+<button class="btn btn-primary">Ajouter un pizza</button>

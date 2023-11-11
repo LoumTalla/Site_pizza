@@ -1,0 +1,12 @@
+<div class="container d-flex flex-row">
+  <app-pizza-list
+    [PizzaSelected]="PizzaSelected"
+    (changePizza)="recupPizza($event)"
+    [pizzas]="pizzas"
+    class="flex-50 pr-10"
+  ></app-pizza-list>
+  <app-pizza-details
+    [selectedPizza]="PizzaSelected"
+    class="flex-50 pl-10"
+  ></app-pizza-details>
+</div>
